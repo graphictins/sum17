@@ -57,13 +57,19 @@ To compile for the web:
 ```bash
 cargo build --release --target wasm32-unknown-unknown
 ```
+## 🚀 Deploy
+GitHub Actions builds and publishes to GitHub Pages automatically on every push to `main` (see `.github/workflows/deploy.yml`). No manual upload needed.
 ## 🖥️ LocalHost
 Can use python to test localhosted game
 ```bash
-# go to web-output dir
-cd web-output
+# stage the site next to the static files
+mkdir -p web
+cp static/index.html static/mq_js_bundle.js web/
+cp target/wasm32-unknown-unknown/release/sum17.wasm web/
+cp -R assets web/
 
 # run server
+cd web
 python -m http.server
 ```
 > then you can test at [localhost:8000](http://localhost:8000/)
