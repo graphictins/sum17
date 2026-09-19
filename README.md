@@ -5,7 +5,7 @@
 # <p align="center"> Triplet Sum Puzzle Game <p align="center">
 
 <p align="center">
-    <strong>Live Demo</strong>: <a href="https://graphictin.github.io/sum17/">graphictin.github.io/sum17/</a>
+    <strong>Live Demo</strong>: <a href="https://graphictins.github.io/sum17/">graphictin.github.io/sum17/</a>
 </p>
 
 <br>
