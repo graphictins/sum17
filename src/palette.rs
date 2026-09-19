@@ -32,5 +32,6 @@ pub const LBLUE: Color = color_u8!(0x53, 0xa6, 0xff, 255); // #53a6ff
 pub const XBLUE: Color = color_u8!(0x6d, 0xbb, 0xff, 255); // #6dbbff
 
 
+pub const ORANGE: Color = color_u8!(0xff, 0xa9, 0x38, 255); // #FFA938
 pub const RING_BLUE: Color = color_u8!(0x09, 0x37, 0xa2, 255); // #0937a2
 pub const OVERLOADED: Color = color_u8!(0xff, 0x00, 0x00, 255); // #ff0000

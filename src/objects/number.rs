@@ -2,6 +2,8 @@
 
 use macroquad::prelude::*;
 
+use crate::palette;
+
 pub struct Number {
     // ID/Data Component
     pub value: u8,
@@ -34,6 +36,7 @@ impl Number {
             TextParams {
                 font: Some(font),
                 font_size: 48,
+                color: palette::ORANGE,
                 ..Default::default()
             },
         );
